@@ -1,0 +1,56 @@
+# ================================================
+# .gitignore — EduTrack AI
+# Lista de arquivos que o Git deve IGNORAR
+# ou seja, nunca enviar para o GitHub
+# ================================================
+
+
+# ------------------------------------------------
+# CREDENCIAIS — NUNCA subir para o GitHub!
+# Contém a URL da API do Xano com acesso ao banco.
+# Se subir, qualquer pessoa pode usar sua API.
+# ------------------------------------------------
+.streamlit/secrets.toml
+
+
+# ------------------------------------------------
+# AMBIENTE VIRTUAL PYTHON
+# Pasta criada pelo comando: python -m venv .venv
+# Pesa centenas de MB — quem clonar o projeto
+# instala as dependências via requirements.txt
+# ------------------------------------------------
+.venv/
+venv/
+env/
+
+
+# ------------------------------------------------
+# CACHE DO PYTHON
+# Arquivos gerados automaticamente ao executar
+# o código. São temporários e desnecessários
+# no repositório.
+# ------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# ------------------------------------------------
+# ARQUIVOS DE SISTEMA
+# .DS_Store → criado pelo macOS em toda pasta
+# Thumbs.db → criado pelo Windows
+# Não têm utilidade fora do computador local.
+# ------------------------------------------------
+.DS_Store
+Thumbs.db
+
+
+# ------------------------------------------------
+# CONFIGURAÇÕES DE EDITOR
+# .vscode/ → configurações do VS Code
+# .idea/   → configurações do PyCharm
+# São pessoais e não devem ir para o repositório.
+# ------------------------------------------------
+.vscode/
+.idea/
