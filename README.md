@@ -19,7 +19,7 @@
 
 O sistema está disponível publicamente — não é necessário instalar nada:
 
-**🔗 [https://edutrack-ai.streamlit.app](https://seu-link-aqui)**
+**🔗 [(https://edutrack-ai2grupo4.streamlit.app/)]**
 
 > Acesse diretamente pelo navegador, crie uma conta e comece a usar.
 
